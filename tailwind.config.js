@@ -19,7 +19,7 @@ module.exports = {
 
         100 : '#003049',
         200 : '#1D3557',
-        300 : '#5F72B4',
+        300 : '#3d5a80',
         400 : '#353BC4',
         500 : '#D9D9D9',
 
@@ -32,17 +32,22 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+
     },
 
     width: {
        'display' : '950px',
-       'side'    : '425px'
+       'side'    : '425px',
+       'nav'   : '600px'
     },
 
     height : {
       'display' : '560px',
-      'side' :'550px'
-    }
+      'side' :'550px',
+      'nav' : '50px'
+    },
+
+   
 
   },
   plugins: [],
