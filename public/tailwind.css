@@ -441,7 +441,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: rgb(217 217 217 / 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -488,7 +488,7 @@ video {
   --tw-ring-inset:  ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-color: rgb(217 217 217 / 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
@@ -513,11 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.w-full {
-  width: 100%;
+.h-full {
+  height: 100%;
 }
 
-.bg-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(20 33 61 / var(--tw-bg-opacity));
+.w-full {
+  width: 100%;
 }
