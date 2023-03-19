@@ -33,6 +33,17 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
     },
+
+    width: {
+       'display' : '950px',
+       'side'    : '425px'
+    },
+
+    height : {
+      'display' : '560px',
+      'side' :'550px'
+    }
+
   },
   plugins: [],
 }
