@@ -38,13 +38,17 @@ module.exports = {
     width: {
        'display' : '950px',
        'side'    : '425px',
-       'nav'   : '600px'
+       'nav'   : '600px',
+       'carousel-lg' : '75px',
+       'carousel-md' :'50px'
     },
 
     height : {
       'display' : '560px',
       'side' :'550px',
-      'nav' : '50px'
+      'nav' : '50px',
+      'carousel-lg' : '75px',
+      'carousel-md' : '50px'
     },
 
    
