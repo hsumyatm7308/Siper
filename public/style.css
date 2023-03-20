@@ -1,0 +1,13 @@
+
+
+.displayscroll{
+    position: absolute;
+    left: 50%;
+    bottom:  0;
+
+    transform: translate(-70%);
+}
+
+.displayscroll::-webkit-scrollbar{
+    width: 0;
+}
