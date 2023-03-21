@@ -1,5 +1,43 @@
 
 
+
+.displaybanner::before{
+    content: " ";
+    width: 70%;
+    height: 120%;
+    background:linear-gradient(rgba(209, 208, 208, 0.5),rgba(162, 161, 161, 0.9)) ;
+
+    /* border-radius: 10%; */
+
+    position: absolute;
+    left: 50%;
+    /* top: -365px; */
+    /* top: -100px; */
+
+    transform: translate(-50%) ;
+
+    clip-path: polygon(50% 100%, 0 0, 100% 0) ;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
 .displayscroll{
     position: absolute;
     left: 50%;
@@ -11,3 +49,47 @@
 .displayscroll::-webkit-scrollbar{
     width: 0;
 }
+
+.container{
+    width: 500px;
+    background: green;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+
+    transform: translate(-50%);
+}
+
+.container::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.shoes-display{
+    display: flex;
+}
+
+.img-background{
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 50%;
+
+    margin: 0 30px ;
+
+
+}
+
+.invisible{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
