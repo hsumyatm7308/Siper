@@ -4,8 +4,8 @@
 
 .polygon{
     width: 700px;
-    height: 600px;
-    background: #ffff;
+    height: 630px;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1), rgba(0,0,0,.2) 100%);
 
     border-radius: 30px 30px 0 0;
 
@@ -25,7 +25,7 @@
     height: 93%;
     background: #3d5a80;
 
-    clip-path: polygon(45% 100%, 0 100%, 0 0);
+    clip-path: polygon(42% 100%, 0 100%, 0 0);
 
 
     position: absolute;
@@ -39,7 +39,7 @@
     height: 93%;
     background: #3d5a80;
 
-    clip-path: polygon(100% 0, 55% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 57% 100%, 100% 100%);
 
 
     position: absolute;
@@ -50,6 +50,18 @@
 
 
 
+.tail-polygon{
+    width: 120px;
+    height: 120px;
+    background: #3d5a80;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    transform: translate(-50%);
+
+}
   
 
 
@@ -71,22 +83,30 @@
 }
 
 .container{
-    width: 500px;
-    background: green;
+    width: 800px;
+    background: #003049;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
 
     position: absolute;
     left: 50%;
-    bottom: 5px;
+    bottom: 7px;
 
     transform: translate(-50%);
+
+    z-index: 100;
+
+    
+
 }
 
 .container::-webkit-scrollbar{
     width: 0;
 }
+
+
+
 
 
 
@@ -97,7 +117,7 @@
 .img-background{
     width: 70px;
     height: 70px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     border-radius: 50%;
 
     margin: 0 30px ;
@@ -106,7 +126,7 @@
 }
 
 .invisible{
-    width: 30px;
+    width: 25px;
     height: 30px;
 }
 
